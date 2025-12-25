@@ -6,11 +6,15 @@ Description :
     This program calculates the sum of all elements in a given
     array (list) of integers.
 
-Approach :
+Approach 1 (Manual Traversal) :
     - Initialize a variable to store the sum
     - Traverse each element in the array
     - Add each element to the sum variable
     - Return the final sum
+
+Approach 2 (Built-in Function) :
+    - Use Python’s built-in sum() function to calculate the sum
+     of elements in a list, tuple or set.
 
 Time Complexity :
     - O(N), where N is the number of elements in the array
@@ -34,9 +38,6 @@ if __name__ == '__main__':
     print(array_sum(numbers))
 
     # 2nd approach
-    """
-    Python provides a built-in sum() function to calculate the sum
-     of elements in a list, tuple or set.
-    """
+
     result = sum(numbers)
     print('sum is :',result)
