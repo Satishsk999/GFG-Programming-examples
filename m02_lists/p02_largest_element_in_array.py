@@ -19,6 +19,10 @@ Approach 2 (Built-in Function) :
     - Use Python’s built-in max() function to directly
       determine the largest element in the array
 
+Approach 3 (Built-in Function) :
+    - Use Python's built-in sort() function and print the
+    last element
+
 Time Complexity :
     - O(N), where N is the number of elements in the array
       (for both approaches)
@@ -47,6 +51,11 @@ arr = list(map(int, input("Enter the list elements: ").split()))
 result_manual = find_max_manual(arr)
 print("Maximum element (Manual Approach):", result_manual)
 
-# Approach 2: Built-in function
+# Approach 2: Built-in function max()
 result_builtin = max(arr)
-print("Maximum element (Built-in Approach):", result_builtin)
+print("Maximum element (Built-in Approach using max function):", result_builtin)
+
+# Approach 3: Built-in function sort()
+arr.sort()
+res = arr[-1]
+print("Maximum element (Built-in Approach using sort function):", res)
