@@ -10,11 +10,9 @@ Approaches:
 
 Edge Cases to be considered:
 
-| Approach          | Time Complexity | Space Complexity |
-| ----------------- | --------------- | ---------------- |
-| Approach 1 (Loop) | **O(n)**        | **O(1)**         |
-| Approach 2 (Sort) | **O(n log n)**  | **O(1)**         |
+Time Complexity :
 
+Space Complexity :
 
 """
 # Approach 1
