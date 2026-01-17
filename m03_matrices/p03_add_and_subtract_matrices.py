@@ -9,10 +9,14 @@ Approaches:
     2. Using nested loops
 
 Edge Cases to be considered:
+    1. Dimension Mismatch
+    2. Jagged matrices
+    3. Non-numeric elements
 
-Time Complexity :
+Time Complexity : O(RxC) for both approaches.
+    Python loop overhead is significant and much slower than NumPy for large matrices
 
-Space Complexity :
+Space Complexity : O(R × C) auxiliary space
 
 """
 
@@ -28,9 +32,9 @@ print("Matrix B:\n", B)
 C = np.add(A, B)
 print("Addition Result:\n", C)
 
-# Adding matrices
+# Subtracting matrices
 C1 = np.subtract(A, B)
-print("Addition Result:\n", C1)
+print("Subtraction Result:\n", C1)
 
 #Approach 2
 
