@@ -33,6 +33,12 @@ print(result)
 """
 Transposes the matrix with zip(*) and selects the Kth row of the transposed matrix.
 This method is readable but slightly slower due to creating intermediate tuples.
+Explanation:
+
+*mat: Unpacks the matrix rows as separate arguments.
+zip(*mat): Transposes the matrix, converting rows into columns.
+[K]: Selects the Kth column from the transposed result.
+list(): Converts the resulting tuple of elements into a list.
 """
 mat = [[4, 5, 6], [8, 1, 10], [7, 12, 5]]
 K = 2
