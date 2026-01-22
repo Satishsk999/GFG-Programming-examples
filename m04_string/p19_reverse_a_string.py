@@ -8,7 +8,7 @@ Approaches:
     1.Using backward traversal – O(n) Time and O(n) Space
     2.Using Two Pointers - O(n) Time and O(n) Space
     3.Using Recursion - O(n) Time and O(n) Space
-    4.Using Inbuilt methods - O(n) Time and O(n) Space
+    4.Using Inbuilt methods - O(n) Time and O(n) Space # string slicing is best approach
 
 """
 
@@ -61,4 +61,4 @@ print(reverseString(s))
 
 # Approach 4
 s = "hsitas"
-print(s[::-1])
+print(s[::-1]) #best approach
