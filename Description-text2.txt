@@ -1,0 +1,22 @@
+"""
+Author      : Satish Kumar
+Created On  :
+
+Problem link : 
+Problem Statement :
+
+Approaches:
+
+Edge Cases to be considered:
+
+Time Complexity :
+
+Space Complexity :
+
+"""
+
+# Approach 1
+
+# Approach 2
+
+# Approach 3
